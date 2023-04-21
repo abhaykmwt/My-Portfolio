@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+body {
+  background-color: transparent !important;
+  font-family: "Poppins", sans-serif;
+}
+.navigation {
+  background-color: rgb(14, 16, 16);
+}
+
+a {
+  font-size: 1.2rem !important;
+  font-weight: 500;
+}
+a:hover {
+  color: rgb(2, 251, 168) !important;
+}
+.navbar {
+  padding-right: 8%;
+  padding-left: 8%;
+  margin-top: 1%;
+}
+
+.portfolioname {
+  > h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.nav-item {
+  padding-right: 10%;
+}
+
+@media only screen and (max-width: 550px) {
+  .navbar {
+    padding-left: 2%;
+    padding-right: 8%;
+
+    .portfolioname {
+      h1 {
+        font-size: 1.7rem;
+      }
+    }
+  }
+}

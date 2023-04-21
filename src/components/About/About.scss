@@ -1,0 +1,282 @@
+.container {
+  // background-color: cadetblue;
+}
+.btn11 {
+  > a {
+    > .btn12 {
+      color: white;
+      width: 35%;
+      height: 5vh;
+      text-align: center;
+      box-shadow: 0px 0px 10px 0px aquamarine;
+      background-color: transparent;
+      border: "none";
+      font-size: "1.3rem";
+    }
+  }
+  .btn12:hover {
+    background-color: rgb(35, 57, 52);
+  }
+}
+.hero-about {
+  // width: 30%;
+  display: flex;
+
+  justify-content: center;
+
+  > h1 {
+    padding-top: 3%;
+    border-bottom: 2px solid rgb(126, 255, 212);
+    font-size: 2rem;
+    letter-spacing: 5px;
+    text-align: center;
+
+    > span {
+      color: rgb(0, 255, 170);
+    }
+  }
+}
+
+.About-me {
+  padding-left: 5%;
+  padding-right: 5%;
+  > p {
+    padding: 2%;
+  }
+}
+
+.personaldetails {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  align-items: center;
+  > h2 {
+    font-size: 1.8rem;
+
+    text-align: center;
+  }
+
+  > .per-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+
+    letter-spacing: 2px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px aquamarine;
+    margin: auto;
+    height: 5vh;
+    cursor: pointer;
+    > a {
+      font-size: 5px;
+    }
+  }
+  > .per-mob {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+
+    width: auto;
+    min-width: 30%;
+    letter-spacing: 10px;
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px aquamarine;
+    // margin: auto;
+    line-height: 5vh;
+    height: 5vh;
+  }
+}
+
+// servises i offer
+.our-services {
+  display: flex;
+
+  justify-content: center;
+  > h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1%;
+    border-bottom: 2px solid rgb(126, 255, 212);
+    font-size: 2rem;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+}
+.tech-service {
+  text-align: center;
+
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+
+  > h3 {
+    font-size: 24px;
+    border-bottom: 3px solid rgb(126, 255, 212);
+  }
+  > .service {
+    max-width: 300px;
+    margin: 3%;
+    padding: 3.2%;
+
+    height: 345.6px;
+    box-shadow: 0px 0px 10px 0px aquamarine;
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: center;
+    > h3 {
+      font-size: 18.72px;
+    }
+    > p {
+      font-size: 14.4px;
+      width: 100%;
+
+      font-weight: 300;
+    }
+  }
+  > .service:hover {
+    transform: scale(1.1);
+    background-color: rgb(35, 57, 52);
+    box-shadow: 0px 0px 10px 0px rgb(0, 255, 170);
+  }
+  > .react-service {
+    max-width: 300px;
+    margin: 3%;
+    padding: 3.2%;
+    overflow: hidden;
+    height: 345.6px;
+    box-shadow: 0px 0px 10px 0px aquamarine;
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: center;
+
+    > ion-icon {
+      font-size: 8rem;
+
+      filter: grayscale(80%);
+    }
+    > h3 {
+      font-size: 18.72px;
+    }
+    > p {
+      font-size: 14.4px;
+      width: 100%;
+      font-weight: 300;
+    }
+  }
+}
+
+.react-service:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgb(35, 57, 52);
+  box-shadow: 0px 0px 10px 0px rgb(0, 255, 170);
+}
+
+// About mobile devices responsive styles
+@media screen and (max-width: 550px) {
+  .tech-service {
+    text-align: center;
+
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+
+    > h3 {
+      font-size: 24px;
+      border-bottom: 3px solid rgb(126, 255, 212);
+    }
+    > .service {
+      max-width: 300px;
+      margin: 3%;
+      padding: 10%;
+
+      height: 345.6px;
+      box-shadow: 0px 0px 10px 0px aquamarine;
+      border-radius: 5px;
+      background-color: transparent;
+      text-align: center;
+      > h3 {
+        font-size: 18.72px;
+      }
+      > p {
+        font-size: 14.4px;
+        width: 100%;
+
+        font-weight: 300;
+      }
+    }
+    > .service:hover {
+      transform: scale(1.1);
+      background-color: rgb(35, 57, 52);
+      box-shadow: 0px 0px 10px 0px rgb(0, 255, 170);
+    }
+  }
+
+  .react-service {
+    max-width: 300px;
+
+    margin: 3%;
+    padding: 10%;
+    height: 345.6px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px aquamarine;
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: center;
+
+    > img {
+      height: 14vh;
+
+      filter: grayscale(80%);
+    }
+    > h3 {
+      font-size: 18.72px;
+    }
+    > p {
+      font-size: 14.4px;
+      width: 100%;
+      font-weight: 300;
+    }
+  }
+  .personaldetails {
+    > h2 {
+      font-size: 1.3rem;
+    }
+    > .per-mob {
+      width: 100%;
+      letter-spacing: 5px;
+    }
+    .per-email {
+      width: 100%;
+
+      > a {
+        > h5 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .btn11 {
+    > a {
+      > .btn12 {
+        width: 80%;
+        height: 5vh;
+        text-align: center;
+        box-shadow: 0px 0px 10px 0px aquamarine;
+        background-color: transparent;
+        border: "none";
+        font-size: "1.3rem";
+      }
+    }
+    .btn12:hover {
+      background-color: rgb(35, 57, 52);
+    }
+  }
+}

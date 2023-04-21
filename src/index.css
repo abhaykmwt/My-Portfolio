@@ -1,0 +1,10 @@
+:root {
+  background-color: rgb(21, 22, 28);
+
+
+overflow-x: hidden;
+scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+  display: block;
+}
